@@ -51,12 +51,12 @@ To run this project, you will need MATLAB with Simulink.
 4.  **Simulate Fault Data:**
     * Open the Simulink model file: `Electrical_fault_detection_simulation.slx`.
     * Run the simulation to generate the raw current and voltage data. This data will be saved to the workspace.
-4.  **Process Data, Train Models & Predict:**
-    * Open and run the MATLAB Live Script: `code_electrical_fault_detection.mlx`.
-        * Fisrt download the trained dataset **classData.csv** from `https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`.
-        * Import the csv file "classData.csv" and performing necessary data preprocessing steps.
-        * Train and evaluate the machine learning models (potentially using the Classification Learner App interactively or through programmatic calls) for each output variable.
-        * Export the most accurate data to the workspace and train it on raw data.
+4.  **Processing Data, Training Models & Predict:**
+    * Open and run the MATLAB Live Script: `code_electrical_fault_detection.mlx`. Import the necessary files and then run the script:
+        * First download the trained dataset **classData.csv** from `https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`.
+        * Import the csv file "classData.csv".
+        * Import files named [model_A, model_B, model_C and model_D] from `Script_electrical_fault_detection.mat` to the workspace.
+        * Now run the Live script. 
 
 ---
 
