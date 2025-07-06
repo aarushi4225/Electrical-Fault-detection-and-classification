@@ -82,6 +82,6 @@ To run this project, you will need MATLAB with Simulink.
 
 This project draws insights from existing research on the topic electrical fault detection and machine learning. Specifically, the circuit designs and foundational ideas for simulating fault scenarios were adapted from the following works:
 
-* [1] **Electrical Fault detection and classification - E Sathya Prakash`https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`**
+* [1] **Dataset on Electrical Fault detection and classification - E Sathya Prakash`https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`**
 * [2] **Jamil, M., Sharma, S.K. & Singh, R. Fault detection and classification in electrical power transmission system using artificial neural network. SpringerPlus `https://rdcu.be/eu0yz`**
 
