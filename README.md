@@ -56,14 +56,14 @@ To run this project, you will need MATLAB with Simulink.
         * Fisrt download the trained dataset **classData.csv** from `https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`.
         * Import the csv file "classData.csv" and performing necessary data preprocessing steps.
         * Train and evaluate the machine learning models (potentially using the Classification Learner App interactively or through programmatic calls) for each output variable.
-        * MExport the most accurate data to the workspace and train it on raw data.
+        * Export the most accurate data to the workspace and train it on raw data.
 
 ---
 
 ## References & Acknowledgements
 
-This project draws inspiration and methodological insights from existing research in the field of electrical fault detection and machine learning. Specifically, the circuit designs and foundational ideas for simulating fault scenarios were adapted from the following works:
+This project draws insights from existing research on the topic electrical fault detection and machine learning. Specifically, the circuit designs and foundational ideas for simulating fault scenarios were adapted from the following works:
 
-* [1] **Author(s). (Year). *Title of Paper*. Journal/Conference Name, Volume(Issue), Pages. DOI: [link or DOI]**
-* [2] **Author(s). (Year). *Title of Paper*. Journal/Conference Name, Volume(Issue), Pages. DOI: [link or DOI]**
-* [3] **Author(s). (Year). *Title of Paper*. Journal/Conference Name, Volume(Issue), Pages. DOI: [link or DOI]**
+* [1] **Kaggle Data on Electrical Fault detection and classification `https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`**
+* [2] **Jamil, M., Sharma, S.K. & Singh, R. Fault detection and classification in electrical power transmission system using artificial neural network. SpringerPlus `https://rdcu.be/eu0yz`**
+
