@@ -18,7 +18,7 @@ This project explores the application of machine learning as an efficient way to
 * **Simulink-based Data Generation:** Designed an Electrical Line simulation circuit using Simulink model (`Electrical_fault_detection_simulation.slx`). This generated realistic current and voltage data related to Fault scenarios.
 * **Data Processing (MATLAB):** Raw data generated from Simulink was processed using MATLAB. This included steps such as - arranging the raw numeric arrays into matrices, compilation into readable dataset to be fed into ML model.
 * **Machine Learning Model Training:**
-    * Leveraged **MATLAB's Classification Learner App** for rapid prototyping and training of various machine learning classification models.
+    * Leveraged **MATLAB's Classification Learner** for rapid prototyping and training of various machine learning classification models.
     * Explored and compared the performance of diverse algorithms, including [Artificial Neural Networks (FINE KNNs), Random Forests, Support Vector Machines (SVMs), Boosting Algorithms].
 * Enabled **5-fold cross-validation** to prevent overfitting, providing an unbiased estimate of their performance on unseen data.
 * **Performance Evaluation:** Comparison of trained models was conducted using key metrices such as **accuracy and test scores** and analysis of **confusion matrices** to assess precision, recall, and overall effectiveness for each fault class.
