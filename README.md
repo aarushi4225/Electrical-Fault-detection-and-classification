@@ -40,13 +40,9 @@ To run this project, you will need MATLAB with Simulink.
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/aarushi4225/Electrical-Fault-detection-and-classification-with-Machine-learning.git](https://github.com/aarushi4225/Electrical-Fault-detection-and-classification-with-Machine-learning.git)
-    cd Electrical-Fault-detection-and-classification-with-Machine-learning
-    ```
+1. Download the files attached in the repository.
 2.  Open MATLAB.
-3.  In MATLAB's Current Folder browser, navigate to the directory where cloned repository was saved.
+3.  In MATLAB's Current Folder browser, navigate to the directory where files were saved.
 4.  **Simulate Fault Data:**
     * Open the Simulink model file: `Electrical_fault_detection_simulation.slx`.
     * Run the simulation to generate the raw current and voltage data. This data will be saved to the workspace.
