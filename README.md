@@ -11,6 +11,7 @@ Created a Simulink model for electrical line fault data generation. Utilized MAT
 ## Motivation
 
 Electrical power systems are subjected to various faults that can cause significant damage, power outages, and economic losses. Timely and accurate fault detection and classification are important for maintaining grid stability. 
+
 This project explores the application of machine learning as an efficient way to catch such faults, by leveraging machine learning's capabilities for **pattern recognition in complex electrical data** to enable automated and precise fault identification. As an an electrical and electronics student, this project was also a crucial learning experience in applying machine learning methodologies to real-world problems.
 
 ---
