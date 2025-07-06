@@ -34,7 +34,7 @@ This project explores the application of machine learning as an efficient way to
 
 ---
 
-## Running this Project
+## Run this Project
 
 To run this project, you will need MATLAB with Simulink.
 
