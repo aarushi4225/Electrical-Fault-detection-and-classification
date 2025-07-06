@@ -69,12 +69,12 @@ To run this project, you will need MATLAB with Simulink.
    - G : Ground (GND)
      
 * Inferences from Output [G C A B]
-- [0 0 0 0] - No Fault
-- [1 0 0 1] - LG fault (Between Phase A and Gnd)
-- [0 0 1 1] - LL fault (Between Phase A and Phase B)
-- [1 0 1 1] - LLG Fault (Between Phases A,B and ground)
-- [0 1 1 1] - LLL Fault(Between all three phases)
-- [1 1 1 1] - LLLG fault( Three phase symmetrical fault)
+   - [0 0 0 0] - No Fault
+   - [1 0 0 1] - LG fault (Between Phase A and Gnd)
+   - [0 0 1 1] - LL fault (Between Phase A and Phase B)
+   - [1 0 1 1] - LLG Fault (Between Phases A,B and ground)
+   - [0 1 1 1] - LLL Fault(Between all three phases)
+   - [1 1 1 1] - LLLG fault( Three phase symmetrical fault)
 ---
 
 
