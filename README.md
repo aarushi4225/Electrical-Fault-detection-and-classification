@@ -22,7 +22,7 @@ This project explores the application of machine learning as an efficient way to
 * **Machine Learning Model Training:**
     * Leveraged **MATLAB's Classification Learner** for rapid prototyping and training of various machine learning classification models.
     * Explored and compared the performance of diverse algorithms, including [Artificial Neural Networks (FINE KNNs), Random Forests, Support Vector Machines (SVMs), Boosting Algorithms].
-* Enabled **5-fold cross-validation** to prevent overfitting, providing an unbiased estimate of their performance on unseen data.
+* Enabled **10-fold cross-validation** to prevent overfitting, providing an unbiased estimate of their performance on unseen data.
 ![Screenshot 2025-07-03 231655](https://github.com/user-attachments/assets/c5bbdc43-a257-4a90-8d68-c77a9fa9e134)
 
 * **Performance Evaluation:** Comparison of trained models was conducted using key metrices such as **accuracy and test scores** and analysis of **confusion matrices** to assess precision, recall, and overall effectiveness for each fault class.
