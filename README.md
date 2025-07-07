@@ -1,4 +1,4 @@
-![Screenshot 2025-07-03 165607](https://github.com/user-attachments/assets/677c3c45-e448-4365-9cb7-9b75dd368db1)# Electrical-Fault-detection-and-classification-with-Machine-learning
+# Electrical Fault Detection and Classification with Machine Learning
 
 ## Project Overview
 Leveraged machine learning for electrical fault detection and classification, powered by Simulink-generated data and comprehensive MATLAB analysis.
