@@ -23,9 +23,7 @@ This project explores the application of machine learning as an efficient way to
     * Leveraged **Classification Learner** for rapid prototyping and training of various machine learning models.
     * Explored and compared the performance of diverse algorithms.
 
-![Screenshot 2025-07-03 165607](https://github.com/user-attachments/assets/06ca148c-5edb-408d-84f8-07738ce00c99)
-
-* Enabled **5-fold cross-validation** to prevent overfitting, providing an unbiased estimate of th![Uploading Screenshot 2025-07-03 165607.png…]()
+* Applied **5-fold cross-validation** to prevent overfitting, providing an unbiased estimate of th![Uploading Screenshot 2025-07-03 165607.png…]()
 eir performance on unseen data.
 * **Performance Evaluation:** Comparison of trained models was conducted using key metrices such as **accuracy and test scores** and analysis of **confusion matrices** to assess precision, recall, and overall effectiveness for each fault class.
 * **Real-time Prediction Simulation:** The most accurately trained model was successfully utilized to make predictions on newly generated, unseen simulated fault data, demonstrating its practical applicability in a diagnostic setting.
