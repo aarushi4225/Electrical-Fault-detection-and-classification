@@ -1,4 +1,4 @@
-# Electrical Fault Detection and Classification with Machine Learning
+# Electrical Fault Detection and Classification
 
 ## Project Overview
 Leveraged machine learning for electrical fault detection and classification, powered by Simulink-generated data and comprehensive MATLAB analysis.
@@ -20,7 +20,7 @@ This project explores the application of machine learning as an efficient way to
 
 * **Data Processing (MATLAB):** Raw data generated from Simulink was processed using MATLAB. This included steps such as - arranging the raw numeric arrays into matrices, compilation into readable dataset to be fed into ML model.
 * **Machine Learning Model Training:**
-    * Leveraged **MATLAB's Classification Learner** for rapid prototyping and training of various machine learning classification models.
+    * Leveraged **Classification Learner** for rapid prototyping and training of various machine learning models.
     * Explored and compared the performance of diverse algorithms.
 
 ![Screenshot 2025-07-03 165607](https://github.com/user-attachments/assets/06ca148c-5edb-408d-84f8-07738ce00c99)
@@ -36,7 +36,6 @@ eir performance on unseen data.
 
 * **MATLAB R[2023b]**
 * **Simulink**
-* **Classification Learner Feature**
 
 ---
 
