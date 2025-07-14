@@ -12,6 +12,11 @@ Electrical power systems are subjected to various faults that can cause signific
 This project explores the application of machine learning as an efficient way to catch such faults, by leveraging machine learning's capabilities for **pattern recognition in complex electrical data** to enable automated and precise fault identification. As an an electrical and electronics student, this project was also a crucial learning experience in applying machine learning methodologies to real-world problems.
 
 ---
+## Development Context
+
+The initial development and testing of machine learning algorithms for this project were carried out using Python libraries. This foundational work provided a deep understanding of algorithm mechanics through custom implementations, alongside enabling a rigorous comparative analysis of diverse approaches. **The Python-based implementations of the conventionally trained models are available within this repository for further review.** Subsequently, the project transitioned to the MATLAB ecosystem. This shift was motivated by MATLAB's seamless integration with Simulink for robust data simulation, as well as its efficient environment for pre-built machine learning models and streamlined training processes.
+
+---
 
 ## Features & Methodology
 
@@ -20,12 +25,10 @@ This project explores the application of machine learning as an efficient way to
 
 * **Data Processing (MATLAB):** Raw data generated from Simulink was processed using MATLAB. This included steps such as - arranging the raw numeric arrays into matrices, compilation into readable dataset to be fed into ML model.
 * **Machine Learning Model Training:**
-    * Leveraged **Classification Learner** for rapid prototyping and training of various machine learning models.
-    * Explored and compared the performance of diverse algorithms.
+    * The project involved training and comparative analysis of various models to achieve precise electrical fault identification.
 
-* Applied **5-fold cross-validation** to prevent overfitting, providing an unbiased estimate of th![Uploading Screenshot 2025-07-03 165607.png…]()
-eir performance on unseen data.
-* **Performance Evaluation:** Comparison of trained models was conducted using key metrices such as **accuracy and test scores** and analysis of **confusion matrices** to assess precision, recall, and overall effectiveness for each fault class.
+* Leveraged 5-fold cross-validation to prevent overfitting, providing an unbiased estimate of their performance on unseen data.
+* **Performance Evaluation:** Comparison of trained models was conducted using key metrices such as accuracy and test scores and analysis of confusion matrices to assess precision, recall, and overall effectiveness for each fault class.
 * **Real-time Prediction Simulation:** The most accurately trained model was successfully utilized to make predictions on newly generated, unseen simulated fault data, demonstrating its practical applicability in a diagnostic setting.
 
 ---
@@ -73,11 +76,11 @@ To run this project, you will need MATLAB with Simulink.
    - [1 1 1 1] - LLLG fault( Three phase symmetrical fault)
 ---
 
-
 ## References & Acknowledgements
 
-This project draws insights from existing research on the topic electrical fault detection and machine learning. Specifically, the circuit designs and foundational ideas for simulating fault scenarios were adapted from the following works:
+This project and the initial learning phase were conducted under the valuable guidance of **Dr. Sparsh Mittal**, from the **Department of Electronics and Communication Engineering, Indian Institute of Technology Roorkee.**
 
-* [1] **Dataset on Electrical Fault detection and classification - E Sathya Prakash`https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`**
-* [2] **Jamil, M., Sharma, S.K. & Singh, R. Fault detection and classification in electrical power transmission system using artificial neural network. SpringerPlus `https://rdcu.be/eu0yz`**
+The project draws insights from existing research on the topic **Electrical fault detection and machine learning**. Specifically, the circuit designs and foundational ideas for simulating fault scenarios were adapted from the following works:
 
+* [1] **Jamil, M., Sharma, S.K. & Singh, R. Fault detection and classification in electrical power transmission system using artificial neural network. SpringerPlus `https://rdcu.be/eu0yz`**
+* [2] **Dataset on Electrical Fault detection and classification - E Sathya Prakash`https://www.kaggle.com/datasets/esathyaprakash/electrical-fault-detection-and-classification/data`**
