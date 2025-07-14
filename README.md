@@ -20,7 +20,7 @@ The initial development and testing of machine learning algorithms for this proj
 
 ## Features & Methodology
 
-* **Simulink-based Data Generation:** Designed an Electrical Line simulation circuit using Simulink model (`Electrical_fault_detection_simulation.slx`). This generated realistic current and voltage data related to Fault scenarios.
+* **Simulink-based Data Generation:** Designed an Electrical Line simulation circuit using Simulink model (`Electrical_fault_detection_simulation.slx`). This design was motivated by circuit configurations and simulation methodologies presented in relevant research, particularly **[1]**, as detailed in the References & Acknowledgements section. This generated realistic current and voltage data related to Fault scenarios.
 ![Screenshot 2025-07-06 122319](https://github.com/user-attachments/assets/e95520ae-0ab4-47d8-a133-daf209b9b92f)
 
 * **Data Processing (MATLAB):** Raw data generated from Simulink was processed using MATLAB. This included steps such as - arranging the raw numeric arrays into matrices, compilation into readable dataset to be fed into ML model.
