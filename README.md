@@ -23,6 +23,17 @@ The project follows a systematic approach, from data generation to model validat
 * **Real-time Prediction Simulation:** The best-performing model was tested on new, unseen simulated data to demonstrate its practical application in a diagnostic setting.
 
 ---
+```text
+├── ANN_EE_fault_detection_classification.ipynb               # Python notebook for ANN model.
+├── Electrical_fault_detection_simulation.slx                 # Simulink model for fault data generation.
+├── README.md                                                 # Project documentation.
+├── Random_forest_EE_Fault_classification.ipynb               # Python notebook for Random Forest model.
+├── Script_electrical_fault_detection.mat                     # MATLAB file with pre-trained models.
+├── classData.csv                                             # Dataset for ML model training.
+├── code_electrical_fault_detection.mlx                       # MATLAB Live Script for main workflow.
+└── ensemble_stack_EE_fault_detection_classification.ipynb    # Python notebook for ensemble model.
+```
+---
 
 ### Features & Key Components
 
